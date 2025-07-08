@@ -1,0 +1,71 @@
+.nutrition-label {
+  font-family: 'Helvetica', Arial, sans-serif;
+  border: 2px solid black;
+  padding: 8px;
+  width: 280px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.nutrition-label-header {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.nutrition-label-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.nutrition-label-header p {
+  font-size: 14px;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.nutrition-label-divider {
+  border-top: 1px solid black;
+  margin: 4px 0;
+}
+
+.nutrition-label-divider.thick {
+  border-top: 8px solid black;
+}
+
+.nutrition-label-body {
+  font-size: 14px;
+}
+
+.nutrition-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 0;
+}
+
+.nutrition-row.main-info {
+  margin: 6px 0;
+}
+
+.nutrition-row.main-info .nutrition-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nutrition-row.main-info .nutrition-value {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nutrition-row.sub-row {
+  padding-left: 12px;
+}
+
+.nutrition-title {
+  font-weight: bold;
+}
+
+.nutrition-value {
+  font-weight: normal;
+}
